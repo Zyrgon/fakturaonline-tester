@@ -1,0 +1,32 @@
+{
+    "login": {
+        "email": "vivid.ice8097@fastmail.com",
+        "password": ""
+    },
+    "contacts": [
+        {
+            "name": "Amanda Mills",
+            "web": "www.example.com",
+            "phone": "123456789",
+            "email": "amanda@example.com",
+            "street": "Masarykova 415",
+            "city": "Domažlice",
+            "zip": "34401",
+            "country": "Česká republika",
+            "numberOfInvoices": "2",
+            "totalInvoiced": "6425Kč",
+            "invoices": [
+                {
+                    "id": "2024050001",
+                    "amount": "4 175 Kč"
+                }
+            ]
+        },
+        {
+            "name": "Jeremy Test"
+        }
+    ],
+    "sorting": {
+        "sortAttribute": "Kontakt"
+    }
+}
