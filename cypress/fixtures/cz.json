@@ -1,0 +1,16 @@
+{
+  "login": {
+    "email": "vivid.ice8097@fastmail.com",
+    "password": ""
+  },
+  "contact":{
+    "name": "Amanda Mills",
+    "web": "www.example.com",
+    "phone": "123456789",
+    "email": "amanda@example.com",
+    "street": "Masarykova 415",
+    "city": "Domažlice",
+    "zip": "34401",
+    "country": "Česká republika"
+  }
+}

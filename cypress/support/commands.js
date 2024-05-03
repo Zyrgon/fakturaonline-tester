@@ -16,3 +16,12 @@
   Cypress.Commands.add('visitSk', (args) => {
     cy.visit(`https://dev.fakturaonline.sk${args}`);
   });
+
+  Cypress.Commands.add('loginToApp', (user) => {
+    cy.get('button[class*="login-button"]').click()
+
+    cy.get('#email').type(user.email)
+    cy.get('#current-password').type(user.password)
+
+    cy.get('button[data-analytics-id="button.login"]').click()
+  })
