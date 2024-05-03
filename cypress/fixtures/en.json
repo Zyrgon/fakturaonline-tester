@@ -1,0 +1,32 @@
+{
+  "login": {
+    "email": "",
+    "password": ""
+  },
+  "contacts": [
+    {
+      "name": "",
+      "web": "",
+      "phone": "",
+      "email": "",
+      "street": "",
+      "city": "",
+      "zip": "",
+      "country": "",
+      "numberOfInvoices": "",
+      "totalInvoiced": "",
+      "invoices": [
+        {
+          "id": "",
+          "amount": ""
+        }
+      ]
+    },
+    {
+      "name": ""
+    }
+  ],
+  "sorting": {
+    "sortAttribute": "Contact"
+  }
+}
